@@ -18,7 +18,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "services": [
+        "dist/services/services",
+        "dist/services"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
